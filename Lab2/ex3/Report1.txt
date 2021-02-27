@@ -1,0 +1,14 @@
+Maintenance Plan Wizard Progress
+
+- Creating maintenance plan "MaintenancePlanForBiblioteca" (Success)
+
+- Adding tasks to the maintenance plan (Success)
+
+- Adding scheduling options (Success)
+
+- Adding reporting options (Success)
+
+- Saving maintenance plan "MaintenancePlanForBiblioteca" (Success)
+
+
+
