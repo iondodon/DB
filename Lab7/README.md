@@ -1,16 +1,16 @@
 1. Creati o diagrama a bazei de date, folosind forma de vizualizare standard, structura careia este
 descrisa la inceputul sarcinilor practice din capitolul 4.
 
-<img src="https://github.com/eminescum/DB/blob/master/Lab7/ex1/m1.png"/>
+<img src="https://github.com/iondodon/DB/blob/master/Lab7/ex1/m1.png"/>
 
 2. Sa se adauge constrangeri referentiale (legate cu tabelele studenti si profesori) necesare
 coloanelor Sef_grupa si Prof_Indrumator (sarcina3, capitolul 6) din tabelul grupe. 
 
-<img src="https://github.com/eminescum/DB/blob/master/Lab7/ex2/m1.png"/>
-<img src="https://github.com/eminescum/DB/blob/master/Lab7/ex2/m2.png"/>
-<img src="https://github.com/eminescum/DB/blob/master/Lab7/ex2/m3.png"/>
-<img src="https://github.com/eminescum/DB/blob/master/Lab7/ex2/m4.png"/>
-<img src="https://github.com/eminescum/DB/blob/master/Lab7/ex2/m5.png"/>
+<img src="https://github.com/iondodon/DB/blob/master/Lab7/ex2/m1.png"/>
+<img src="https://github.com/iondodon/DB/blob/master/Lab7/ex2/m2.png"/>
+<img src="https://github.com/iondodon/DB/blob/master/Lab7/ex2/m3.png"/>
+<img src="https://github.com/iondodon/DB/blob/master/Lab7/ex2/m4.png"/>
+<img src="https://github.com/iondodon/DB/blob/master/Lab7/ex2/m5.png"/>
 
 3. La diagrama construitii, sa se adauge si tabelul orarul definit in capitolul 6 al acestei lucrari:
 tabelul orarul contine identificatorul disciplinei (ld_Disciplina), identificatorul profesorului
@@ -18,7 +18,7 @@ tabelul orarul contine identificatorul disciplinei (ld_Disciplina), identificato
 identificatorul grupei (Id_ Grupa), ziua lectiei (Z1), ora de inceput a lectiei (Ora), sala unde
 are loc lectia (Auditoriu).
 
-<img src="https://github.com/eminescum/DB/blob/master/Lab7/ex3/m1.png"/>
+<img src="https://github.com/iondodon/DB/blob/master/Lab7/ex3/m1.png"/>
 
 ``` sql
 
@@ -43,16 +43,16 @@ create table orarul (
 4. Tabelul orarul trebuie sa contina si 2 chei secundare: (Zi, Ora, Id_ Grupa, Id_ Profesor) si
 (Zi, Ora, ld_Grupa, ld_Disciplina). 
 
-<img src="https://github.com/eminescum/DB/blob/master/Lab7/ex4/m1.png"/>
-<img src="https://github.com/eminescum/DB/blob/master/Lab7/ex4/m2.png"/>
-<img src="https://github.com/eminescum/DB/blob/master/Lab7/ex4/m3.png"/>
+<img src="https://github.com/iondodon/DB/blob/master/Lab7/ex4/m1.png"/>
+<img src="https://github.com/iondodon/DB/blob/master/Lab7/ex4/m2.png"/>
+<img src="https://github.com/iondodon/DB/blob/master/Lab7/ex4/m3.png"/>
 
 5. In diagrama, de asemenea, trebuie sa se defineasca constrangerile referentiale (FK-PK) ale
 atributelor ld_Disciplina, ld_Profesor, Id_ Grupa din tabelului orarul cu atributele tabelelor
 respective.
 
-<img src="https://github.com/eminescum/DB/blob/master/Lab7/ex5/m1.png"/>
-<img src="https://github.com/eminescum/DB/blob/master/Lab7/ex5/m2.png"/>
+<img src="https://github.com/iondodon/DB/blob/master/Lab7/ex5/m1.png"/>
+<img src="https://github.com/iondodon/DB/blob/master/Lab7/ex5/m2.png"/>
 
 6. Creati, in baza de date universitatea, trei scheme noi: cadre_didactice, plan_studii si studenti.
 Transferati tabelul profesori din schema dbo in schema cadre didactice, tinand cont de
@@ -87,8 +87,8 @@ alter schema studenti
 numele tabelelor accesate sa fie descrise in mod explicit, tinand cont de faptul ca tabelele au
 fost mutate in scheme noi.
 
-<img src="https://github.com/eminescum/DB/blob/master/Lab7/ex7/m1.png"/>
-<img src="https://github.com/eminescum/DB/blob/master/Lab7/ex7/m2.png"/>
+<img src="https://github.com/iondodon/DB/blob/master/Lab7/ex7/m1.png"/>
+<img src="https://github.com/iondodon/DB/blob/master/Lab7/ex7/m2.png"/>
 
 ``` sql 
 -- 17. Afisati numele si pronumele profesorilor, care au predat cel putin o disciplina studentului cu identificatorul 100. 

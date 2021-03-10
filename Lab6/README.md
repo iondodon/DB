@@ -1,13 +1,13 @@
 1. Sa se scrie o instructiune T-SQL, care ar popula co Joana Adresa _ Postala _ Profesor din tabelul
 profesori cu valoarea 'mun. Chisinau', unde adresa este necunoscuta. 
 
-<img src="https://github.com/iondodon1998/UTM_DB/blob/master/Lab6/ex1/m1.png"/>
+<img src="https://github.com/iondodon/UTM_DB/blob/master/Lab6/ex1/m1.png"/>
 
 2. Sa se modifice schema tabelului grupe, ca sa corespunda urmatoarelor cerinte:
 a) Campul Cod_ Grupa sa accepte numai valorile unice si sa nu accepte valori necunoscute.
 b) Sa se tina cont ca cheie primarii, deja, este definitii asupra coloanei Id_ Grupa.
 
-<img src="https://github.com/iondodon1998/UTM_DB/blob/master/Lab6/ex2/m1.png"/>
+<img src="https://github.com/iondodon/UTM_DB/blob/master/Lab6/ex2/m1.png"/>
 
 3. La tabelul grupe, sa se adauge 2 coloane noi Sef_grupa si Prof_Indrumator, ambele de tip
 INT. Sii se populeze campurile nou-create cu cele mai potrivite candidaturi ill baza criteriilor
@@ -21,18 +21,18 @@ poate fi illdrumator la mai multe grupe.
 c) Sii se scrie instructiunile ALTER, SELECT, UPDATE necesare pentru crearea coloanelor
 in tabelul grupe, pentru selectarea candidatilor si inserarea datelor.
 
-<img src="https://github.com/iondodon1998/UTM_DB/blob/master/Lab6/ex3/ex3a.png"/>
-<img src="https://github.com/iondodon1998/UTM_DB/blob/master/Lab6/ex3/ex3b.png"/>
-<img src="https://github.com/iondodon1998/UTM_DB/blob/master/Lab6/ex3/ex3c.png"/>
+<img src="https://github.com/iondodon/UTM_DB/blob/master/Lab6/ex3/ex3a.png"/>
+<img src="https://github.com/iondodon/UTM_DB/blob/master/Lab6/ex3/ex3b.png"/>
+<img src="https://github.com/iondodon/UTM_DB/blob/master/Lab6/ex3/ex3c.png"/>
 
 4. Sa se scrie o instructiune T-SQL, care ar mari toate notele de evaluare sefilor de grupe cu un
 punct. Nota maximala (10) nu poate fi miirita. 
 
-<img src="https://github.com/iondodon1998/UTM_DB/blob/master/Lab6/ex4/ex4.png"/>
+<img src="https://github.com/iondodon/UTM_DB/blob/master/Lab6/ex4/ex4.png"/>
 
 5. Sa se creeze un tabel profesori_new, care include urmatoarele coloane: Id_Profesor, Nume _ Profesor, Prenume _ Profesor, Localitate, Adresa _ 1, Adresa _ 2.
 
-<img src="https://github.com/iondodon1998/UTM_DB/blob/master/Lab6/ex5/ex5.png"/>
+<img src="https://github.com/iondodon/UTM_DB/blob/master/Lab6/ex5/ex5.png"/>
 
 ``` sql
 create table profesori_new(
@@ -92,13 +92,13 @@ select * from profesori_new
 6. Sa se insereze datele in tabelul orarul pentru Grupa= 'CIBJ 71' (Id_ Grupa= 1) pentru ziua de
 luni. Toate lectiile vor avea loc ill blocul de studii 'B'.
 
-<img src="https://github.com/iondodon1998/UTM_DB/blob/master/Lab6/ex6/ex6.png"/>
+<img src="https://github.com/iondodon/UTM_DB/blob/master/Lab6/ex6/ex6.png"/>
 
 7. Sii se scrie expresiile T-SQL necesare pentru a popula tabelul orarul pentru grupa INFl 71 ,
 ziua de luni. 
 
-<img src="https://github.com/iondodon1998/UTM_DB/blob/master/Lab6/ex7/m1.png"/>
-<img src="https://github.com/iondodon1998/UTM_DB/blob/master/Lab6/ex7/m2.png"/>
+<img src="https://github.com/iondodon/UTM_DB/blob/master/Lab6/ex7/m1.png"/>
+<img src="https://github.com/iondodon/UTM_DB/blob/master/Lab6/ex7/m2.png"/>
 
 ``` sql
 create table orarul(
@@ -149,5 +149,5 @@ practica 4. Rezultatele optimizarii sa fie analizate in baza planurilor de execu
 dupa crearea indecsilor.
 
 <img src="https://github.com/eminescum/DB/blob/master/Lab6/ex8/b1.png"/>
-<img src="https://github.com/iondodon1998/UTM_DB/blob/master/Lab6/ex8/indexes_creation.png"/>
+<img src="https://github.com/iondodon/UTM_DB/blob/master/Lab6/ex8/indexes_creation.png"/>
 <img src="https://github.com/eminescum/DB/blob/master/Lab6/ex8/a1.png"/>
