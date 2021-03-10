@@ -1,16 +1,16 @@
-# UTM_DB
+# DB
 
 Ion Dodon - FAF-172
 
-#### [Lab2](https://github.com/iondodon/UTM_DB/tree/main/Lab2) Crearea si intretinerea bazei de date
+#### [Lab2](https://github.com/iondodon/DB/tree/main/Lab2) Crearea si intretinerea bazei de date
 
-#### [Lab3-calculatoare database](https://github.com/iondodon/UTM_DB/tree/main/Lab3) Crearea si modificarea tabelelor in SQL Server Management Studio
+#### [Lab3-calculatoare database](https://github.com/iondodon/DB/tree/main/Lab3) Crearea si modificarea tabelelor in SQL Server Management Studio
 
-#### [Lab3-universitatea database](https://github.com/iondodon/UTM_DB/tree/main/Lab3-universitatea) Crearea si modificarea tabelelor in SQL Server Management Studio
+#### [Lab3-universitatea database](https://github.com/iondodon/DB/tree/main/Lab3-universitatea) Crearea si modificarea tabelelor in SQL Server Management Studio
 
-#### [Lab4](https://github.com/iondodon/UTM_DB/tree/main/Lab4) Instructiunea SELECT Transact-SQL
+#### [Lab4](https://github.com/iondodon/DB/tree/main/Lab4) Instructiunea SELECT Transact-SQL
 
-#### [Lab5](https://github.com/iondodon/UTM_DB/tree/main/Lab5) Transact-SQL: Instructiuni Procedure
+#### [Lab5](https://github.com/iondodon/DB/tree/main/Lab5) Transact-SQL: Instructiuni Procedure
 
 #### [Lab6](https://github.com/iondodon/DB/tree/main/Lab6) Crearea tabelelor is indecsilor
 
