@@ -1,8 +1,8 @@
 1. Sa se creeze proceduri stocate in baza exercitiilor (2 exercitii) din capitolul 4. Parametrii de
 intrare trebuie sa corespunda criteriilor din clauzele WHERE ale exercitiilor respective. 
 
-<img src="https://github.com/iondodon/DB/blob/master/Lab9/ex1/m1.png"/>
-<img src="https://github.com/iondodon/DB/blob/master/Lab9/ex1/m2.png"/>
+<img src="https://github.com/iondodon/DB/blob/main/Lab9/ex1/m1.png"/>
+<img src="https://github.com/iondodon/DB/blob/main/Lab9/ex1/m2.png"/>
 
 ``` sql
 -- 10. Gasiti studentii (numele, prenumele), care au obtinut la disciplina Baze de date (examen), 
@@ -71,7 +71,7 @@ execute proc2 'Florea', 'Ioan';
 parametru de iesire. Parametrul de iesire trebuie sa returneze numarul de studenti, care nu au
 sustinut cel putin o forma de evaluare (nota mai mica de 5 sau valoare NULL).
 
-<img src="https://github.com/iondodon/DB/blob/master/Lab9/ex2/m1.png"/>
+<img src="https://github.com/iondodon/DB/blob/main/Lab9/ex2/m1.png"/>
 
 ``` sql 
 go
@@ -96,7 +96,7 @@ nou. In calitate de parametri de intrare sa serveasca datele personale ale stude
 Cod_ Grupa. Sa se genereze toate intrarile-cheie necesare in tabelul studenti_reusita. Notele
 de evaluare sa fie inserate ca NULL. 
 
-<img src="https://github.com/iondodon/DB/blob/master/Lab9/ex3/m1.png"/>
+<img src="https://github.com/iondodon/DB/blob/main/Lab9/ex3/m1.png"/>
 
 ``` sql 
 create procedure addStudent
@@ -137,7 +137,7 @@ de intrare: numele si prenumele profesorului vechi, numele si prenumele profesor
 disciplina. In cazul in care datele inserate sunt incorecte sau incomplete, sa se afiseze un
 mesaj de avertizare.
 
-<img src="https://github.com/iondodon/DB/blob/master/Lab9/ex4/m1.png"/>
+<img src="https://github.com/iondodon/DB/blob/main/Lab9/ex4/m1.png"/>
 
 ``` sql
 alter procedure replaceTeacher
@@ -186,7 +186,7 @@ maximala posibila este 10). In calitate de parametru de intrare, va servi denumi
 Procedura sa returneze urmatoarele campuri: Cod_ Grupa, Nume_Prenume_Student,
 Disciplina, Nota _ Veche, Nota _ Noua. 
 
-<img src="https://github.com/iondodon/DB/blob/master/Lab9/ex5/m1.png"/>
+<img src="https://github.com/iondodon/DB/blob/main/Lab9/ex5/m1.png"/>
 
 ``` sql
 alter procedure top3studenti
@@ -239,10 +239,10 @@ end
 Parametrii de intrare trebuie sa corespunda criteriilor din clauzele WHERE ale exercitiilor
 respective. 
 
-<img src="https://github.com/iondodon/DB/blob/master/Lab9/ex6/m1.png"/>
-<img src="https://github.com/iondodon/DB/blob/master/Lab9/ex6/m2.png"/>
-<img src="https://github.com/iondodon/DB/blob/master/Lab9/ex6/m3.png"/>
-<img src="https://github.com/iondodon/DB/blob/master/Lab9/ex6/m4.png"/>
+<img src="https://github.com/iondodon/DB/blob/main/Lab9/ex6/m1.png"/>
+<img src="https://github.com/iondodon/DB/blob/main/Lab9/ex6/m2.png"/>
+<img src="https://github.com/iondodon/DB/blob/main/Lab9/ex6/m3.png"/>
+<img src="https://github.com/iondodon/DB/blob/main/Lab9/ex6/m4.png"/>
 
 ``` sql
 -- 10. Gasiti studentii (numele, prenumele), care au obtinut la disciplina Baze de date (examen), 
@@ -283,16 +283,16 @@ select * from func2('Florea', 'Ioan');
 7. Sa se scrie functia care ar calcula varsta studentului. Sa se defineasca urmatorul format al
 functiei: <nume Juncfie>(<Data _ Nastere _Student>).
 
-<img src="https://github.com/iondodon/DB/blob/master/Lab9/ex7/m1.png"/>
-<img src="https://github.com/iondodon/DB/blob/master/Lab9/ex7/m2.png"/>
+<img src="https://github.com/iondodon/DB/blob/main/Lab9/ex7/m1.png"/>
+<img src="https://github.com/iondodon/DB/blob/main/Lab9/ex7/m2.png"/>
 
 8. Sa se creeze o functie definita de utilizator, care ar returna datele referitoare la reusita unui
 student. Se defineste urmatorul format al functiei: <nume Juncfie>
 (<Nume_Prenume_Student>). Sa fie afisat tabelul cu urmatoarele campuri:
 Nume_Prenume_Student, Disticplina, Nota, Data_Evaluare. 
 
-<img src="https://github.com/iondodon/DB/blob/master/Lab9/ex8/m1.png"/>
-<img src="https://github.com/iondodon/DB/blob/master/Lab9/ex8/m2.png"/>
+<img src="https://github.com/iondodon/DB/blob/main/Lab9/ex8/m1.png"/>
+<img src="https://github.com/iondodon/DB/blob/main/Lab9/ex8/m2.png"/>
 
 ``` sql
 alter function reusita(@nume_prenume_student varchar(50))
@@ -329,8 +329,8 @@ mai slab student dintr-o grupa. Se defineste urmatorul format al functiei: <nume
 Nume_Prenume_Student, Nota Medie , is_good. Nota Medie sa fie cu precizie de 2
 zecimale.
 
-<img src="https://github.com/iondodon/DB/blob/master/Lab9/ex9/m1.png"/>
-<img src="https://github.com/iondodon/DB/blob/master/Lab9/ex9/m2.png"/>
+<img src="https://github.com/iondodon/DB/blob/main/Lab9/ex9/m1.png"/>
+<img src="https://github.com/iondodon/DB/blob/main/Lab9/ex9/m2.png"/>
 
 ``` sql
 alter function celmai(@cod_grupa char(6), @is_good varchar(10))

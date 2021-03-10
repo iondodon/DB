@@ -2,17 +2,17 @@
 4. Prima viziune sa fie construita in Editorul de interogari, iar a doua, utilizand View
 Designer. 
 
-<img src="https://github.com/iondodon/DB/blob/master/Lab8/ex1/m1.png"/>
+<img src="https://github.com/iondodon/DB/blob/main/Lab8/ex1/m1.png"/>
 
 2. Sa se scrie cate un exemplu de instructiuni INSERT, UPDATE, DELETE asupra viziunilor
 create. Sa se adauge comentariile respective referitoare la rezultatele executarii acestor
 instructiuni. 
 
-<img src="https://github.com/iondodon/DB/blob/master/Lab8/ex2/m1.png"/>
-<img src="https://github.com/iondodon/DB/blob/master/Lab8/ex2/m2.png"/>
-<img src="https://github.com/iondodon/DB/blob/master/Lab8/ex2/m3.png"/>
-<img src="https://github.com/iondodon/DB/blob/master/Lab8/ex2/m4.png"/>
-<img src="https://github.com/iondodon/DB/blob/master/Lab8/ex2/m5.png"/>
+<img src="https://github.com/iondodon/DB/blob/main/Lab8/ex2/m1.png"/>
+<img src="https://github.com/iondodon/DB/blob/main/Lab8/ex2/m2.png"/>
+<img src="https://github.com/iondodon/DB/blob/main/Lab8/ex2/m3.png"/>
+<img src="https://github.com/iondodon/DB/blob/main/Lab8/ex2/m4.png"/>
+<img src="https://github.com/iondodon/DB/blob/main/Lab8/ex2/m5.png"/>
 
 ``` sql 
 go
@@ -100,14 +100,14 @@ select * from grupe_view_ex3;
 
 4. Sa se scrie instructiunile de testare a proprietatilor noi definite. 
 
-<img src="https://github.com/iondodon/DB/blob/master/Lab8/ex4/m1.png"/>
-<img src="https://github.com/iondodon/DB/blob/master/Lab8/ex4/m2.png"/>
+<img src="https://github.com/iondodon/DB/blob/main/Lab8/ex4/m1.png"/>
+<img src="https://github.com/iondodon/DB/blob/main/Lab8/ex4/m2.png"/>
 
 5. Sa se rescrie 2 interogari formulate in exercitiile din capitolul 4, in asa fel. incat interogarile
 imbricate sa fie redate sub forma expresiilor CTE.
 
-<img src="https://github.com/iondodon/DB/blob/master/Lab8/ex5/m1.png"/>
-<img src="https://github.com/iondodon/DB/blob/master/Lab8/ex5/m2.png"/>
+<img src="https://github.com/iondodon/DB/blob/main/Lab8/ex5/m1.png"/>
+<img src="https://github.com/iondodon/DB/blob/main/Lab8/ex5/m2.png"/>
 
 ``` sql 
 -- 10. Gasiti studentii (numele, prenumele), care au obtinut la disciplina Baze de date (examen), 
@@ -169,8 +169,8 @@ expresie-tabel recursiv.
 Sa se observe instructiunea de dupa UNION ALL a membrului recursiv, precum si partea de
 pana la UNION ALL reprezentata de membrul-ancora.
 
-<img src="https://github.com/iondodon/DB/blob/master/Lab8/ex6/m1.png"/>
-<img src="https://github.com/iondodon/DB/blob/master/Lab8/ex6/m2.png"/>
+<img src="https://github.com/iondodon/DB/blob/main/Lab8/ex6/m1.png"/>
+<img src="https://github.com/iondodon/DB/blob/main/Lab8/ex6/m2.png"/>
  
 
  
